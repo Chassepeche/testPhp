@@ -14,18 +14,10 @@ $email = $_POST['email'];
 $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
 // Requête préparée
-$stmt = $conn->prepare("INSERT INTO `users` (username, email, password) VALUES (?, ?, ?)");
-$stmt->bind_param("sss", $username, $email, $password);
+$sql = "INSERT INTO users (username, email, password) VALUES ($username,$email, $password)";
 
-// Exécution
-if ($stmt->execute()) {
-    header("Location: login.php");
-    exit();
-} else {
-    echo "Erreur lors de l'inscription";
-}
+header("Location: login.php");
 
-// Fermeture
-$stmt->close();
+
 $conn->close();
 ?>

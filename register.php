@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "louisducourneau_user-db-social";
-$password = "haMyuHr8Oa$h";
+$password = "haMyuHr8Oa";
 $dbname = "louisducourneau_mini-social";
 
 // Create connection

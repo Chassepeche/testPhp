@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>mini-social</title>
-<LINK rel="styleAcceuil" type="text/css" href="lien_vers_la_feuille"> 
+<link rel="stylesheet" href="style/styleAcceuil.css">
 </head>
  
 <body>

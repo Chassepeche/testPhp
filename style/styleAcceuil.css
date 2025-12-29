@@ -1,6 +1,10 @@
-.home-container1 {
+.body {
     background-color: #000012;
     color : white;
+}
+
+.home-container1 {
+
     display: flex;
     width: 100%;
     min-height: 100vh;

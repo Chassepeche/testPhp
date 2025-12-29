@@ -1,20 +1,18 @@
 .home-container1 {
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
+    background-color: #000012;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .home-container2 {
   width: 20%;
-  border: 2px dashed red;
 }
 
 .home-container3 {
   width: 60%;
-  border: 2px dashed green;
 }
 
 .home-container4 {
   width: 20%;
-  border: 2px dashed blue;
 }

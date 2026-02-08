@@ -16,7 +16,9 @@ if($conn->connect_error){
     die("Connection failed");
 }
 
-$username = "SELECT username FROM users WHERE ID = e786aa2b-044e-11f1-a246-b47af137ac0c";
+$sql = "SELECT username FROM users WHERE ID = e786aa2b-044e-11f1-a246-b47af137ac0c";
+
+$username = $conn->query($sql);
 
 echo "Hello $username";
 ?>

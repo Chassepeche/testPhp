@@ -16,14 +16,15 @@ if($conn->connect_error){
     die("Connection failed");
 }
 
-$sql = "INSERT INTO `users` (`ID`, `username`, `password`, `sudo`) VALUES (NULL, 'test', 'salut', '0')";
+$sql = "SELECT INTO `users` (`ID`, `username`, `password`, `sudo`)";
 
 $result = $conn->query($sql);
 
 $row = $result->fetch_assoc();
-//echo $row;
 
-echo "Hello";
+echo $row;
+
+//echo "Hello";
 ?>
 
 </body>

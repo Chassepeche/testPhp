@@ -16,14 +16,14 @@ if($conn->connect_error){
     die("Connection failed");
 }
 
-$sql = "SELECT username FROM users WHERE ID = 'e786aa2b-044e-11f1-a246-b47af137ac0c'";
+$sql = "INSERT INTO `users` (`ID`, `username`, `password`, `sudo`) VALUES (NULL, 'test', 'salut', '0')";
 
 $result = $conn->query($sql);
 
 $row = $result->fetch_assoc();
 //echo $row;
 
-echo "Hello $username";
+echo "Hello";
 ?>
 
 </body>

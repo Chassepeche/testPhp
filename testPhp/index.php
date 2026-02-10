@@ -16,13 +16,13 @@ if($conn->connect_error){
     die("Connection failed");
 }
 
-$sql = "SELECT INTO `users` (`ID`, `username`, `password`, `sudo`)";
+$sql = "SELECT INTO 'users' ('ID', 'username', 'password', 'sudo')";
 
 $result = $conn->query($sql);
 
-//$row = $result->fetch_assoc();
+$row = $result->fetch_assoc();
 
-echo $result;
+echo $row['username'];
 
 //echo "Hello";
 ?>

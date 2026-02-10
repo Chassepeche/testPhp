@@ -20,9 +20,9 @@ $sql = "SELECT INTO `users` (`ID`, `username`, `password`, `sudo`)";
 
 $result = $conn->query($sql);
 
-$row = $result->fetch_assoc();
+//$row = $result->fetch_assoc();
 
-echo $row;
+echo $result;
 
 //echo "Hello";
 ?>

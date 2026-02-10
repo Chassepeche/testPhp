@@ -16,7 +16,7 @@ if($conn->connect_error){
     die("Connection failed");
 }
 
-$sql = "SELECT INTO 'users' ('ID', 'username', 'password', 'sudo')";
+$sql = "SELECT ID, username, password, sudo FROM users";
 
 $result = $conn->query($sql);
 

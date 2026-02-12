@@ -37,11 +37,11 @@
         <script>
             function connect()
             {
-                location.href = '../config.php';
+                location.href = "../config.php";
             }
             function signIn()
             {
-                location.href 'sign_in.php';
+                location.href "sign_in.php";
             }
         </script>
     </body>

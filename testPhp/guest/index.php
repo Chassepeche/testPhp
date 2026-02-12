@@ -23,10 +23,15 @@
                 <script>
                     function connect()
                     {
-                        alert('test');
+                        location.href = '../config.php';
                     }
                 </script>
-                <button class="button">S'inscrire</button>
+                <button onclick="signIn()" class="button">S'inscrire</button>
+                <script>
+                    fuction signIn()
+                    {
+                        window.location.href("sign_in.php");
+                    }
             </div>
 
             <div class="div4">

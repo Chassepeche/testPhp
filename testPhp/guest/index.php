@@ -30,7 +30,7 @@
                 <script>
                     fuction signIn()
                     {
-                        window.location.href("sign_in.php");
+                        location.href("/sign_in.php");
                     }
             </div>
 

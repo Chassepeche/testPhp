@@ -20,19 +20,9 @@
             <div class="div3">
                 <p>Se Connecter</p>
                 <button onclick="connect()" class="button">Se connecter</button>
-                <script>
-                    function connect()
-                    {
-                        location.href = '../config.php';
-                    }
-                </script>
+
                 <button onclick="signIn()" class="button">S'inscrire</button>
-                <script>
-                    fuction signIn()
-                    {
-                        location.href("/sign_in.php");
-                    }
-                </script>
+
             </div>
 
             <div class="div4">
@@ -44,5 +34,15 @@
             </div>
 
         </div>
+        <script>
+            function connect()
+            {
+                location.href = '../config.php';
+            }
+            function signIn()
+            {
+                location.href("/sign_in.php");
+            }
+        </script>
     </body>
 </html>

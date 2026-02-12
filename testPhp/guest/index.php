@@ -21,7 +21,7 @@
                 <p>Se Connecter</p>
                 <button onclick="connect()" class="button">Se connecter</button>
                 <script>
-                    connect()
+                    function connect()
                     {
                         alert('test');
                     }

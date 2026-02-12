@@ -32,6 +32,7 @@
                     {
                         location.href("/sign_in.php");
                     }
+                </script>
             </div>
 
             <div class="div4">

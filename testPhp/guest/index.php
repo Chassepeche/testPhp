@@ -19,6 +19,14 @@
 
             <div class="div3">
                 <p>Se Connecter</p>
+                <button onclick="connect()" class="button">Se connecter</button>
+                <script>
+                    connect()
+                    {
+                        alert('test');
+                    }
+                </script>
+                <button class="button">S'inscrire</button>
             </div>
 
             <div class="div4">

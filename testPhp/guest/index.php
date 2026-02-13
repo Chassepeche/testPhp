@@ -37,7 +37,7 @@
         <script>
             function connect()
             {
-                location.href = "../log_in.php";
+                location.href = "log_in.php";
             }
             function signIn()
             {

@@ -6,16 +6,10 @@ $db_username = "louisducourneau_phpUser";
 $db_password = "t%^Rw{NFfC0;";
 $db_servername = "localhost";
 
-
 //connexion BDD
 $conn = new mysqli($db_servername, $db_username, $db_password, $db_name);
 
 /*
-if($conn->connect_error){
-    die("Connection failed");
-}
-*/
-
 //ecriture de la requete sql
 $sql = "SELECT ID, username, password, sudo FROM users";
 
@@ -27,5 +21,5 @@ $row = $result->fetch_assoc();
 
 //affichage d'un element du tableau
 echo $row['username'];
-
+*/
 ?>

@@ -3,8 +3,8 @@
     <head><title>S'inscrire</title></head>
     <body>
         <form action="createUser.php" method="POST">
-            <input type="text" id="username" />
-            <input type="text" id="password" />
+            <input type="text" name="username" />
+            <input type="text" name="password" />
             <button type="submit">S'inscrire</button>
         </form>
     </body>

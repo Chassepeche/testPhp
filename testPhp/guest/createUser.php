@@ -2,7 +2,7 @@
 <?php require "../config.php";
 
     $username = $_POST['username'];
-    $hash = password_hash($_POST['password'], PASSWORD_DEFAULT;)
+    $hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
     $sql = "INSERT INTO users (username, password, sudo) VALUES ('$username', '$hash', '0')";
 
